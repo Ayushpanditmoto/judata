@@ -76,11 +76,12 @@ function MyComponent() {
     if (rollNo.length !== 10) return alert("Enter a valid roll number");
     setWorkingLinks([]);
     SearchImage();
+    setRollNumber("");
   };
   return (
     <div
       style={{
-        backgroundColor: "#0e6ed5",
+        height: "100vh",
       }}
     >
       <div
