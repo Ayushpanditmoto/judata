@@ -78,7 +78,11 @@ function MyComponent() {
     SearchImage();
   };
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "#0e6ed5",
+      }}
+    >
       <div
         style={{
           display: "flex",
